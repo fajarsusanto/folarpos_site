@@ -1,0 +1,11 @@
+[12-Feb-2018 07:34:35 UTC] PHP Notice:  Undefined index: fldr in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/dialog.php on line 115
+[12-Feb-2018 07:34:47 UTC] PHP Warning:  move_uploaded_file(/home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/../../../assets/image/content//2.JPG): failed to open stream: No such file or directory in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/upload.php on line 24
+[12-Feb-2018 07:34:47 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phplDp0jG' to '/home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/../../../assets/image/content//2.JPG' in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/upload.php on line 24
+[12-Feb-2018 07:35:12 UTC] PHP Notice:  Undefined index: fldr in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/dialog.php on line 115
+[12-Feb-2018 07:35:17 UTC] PHP Notice:  Undefined index: fldr in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/dialog.php on line 115
+[13-Feb-2018 14:34:38 UTC] PHP Notice:  Undefined index: fldr in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/dialog.php on line 115
+[13-Feb-2018 14:34:48 UTC] PHP Warning:  move_uploaded_file(/home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/../../../assets/image/content//businessman.png): failed to open stream: No such file or directory in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/upload.php on line 24
+[13-Feb-2018 14:34:48 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpMuCRgT' to '/home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/../../../assets/image/content//businessman.png' in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/upload.php on line 24
+[13-Feb-2018 14:37:59 UTC] PHP Notice:  Undefined index: fldr in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/dialog.php on line 115
+[13-Feb-2018 15:06:56 UTC] PHP Notice:  Undefined index: fldr in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/dialog.php on line 115
+[13-Feb-2018 15:08:49 UTC] PHP Notice:  Undefined index: fldr in /home/u3154451/public_html/folarpos/tinymce/plugins/filemanager/dialog.php on line 115
